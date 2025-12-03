@@ -9,34 +9,19 @@ package function.lamdba;
  **/
 public class t {
     public static void main(String[] args) {
-        int x = 10;
-        Thread.startVirtualThread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("aa");
+        Cfunc c;
+        c = (a, b) -> {
+            if (a == 100) {
+                return a;
             }
-        });
-
-        Cfunc c = a -> a + x;
-        test aNew = Stu::new;
-
+            return b.sort(a + 1, b);
+        };
+        int sort = c.sort(10, c);
+        System.out.println(sort);
     }
-
 }
 
 @FunctionalInterface
 interface Cfunc {
-    int sort(int a);
-}
-
-@FunctionalInterface
-interface test {
-    Stu sort();
-}
-
-class Stu {
-    static void highOrder(Cfunc lambda) {
-        int sort = lambda.sort(100);
-        System.out.println(sort);
-    }
+    int sort(int a, Cfunc c);
 }
