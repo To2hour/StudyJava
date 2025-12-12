@@ -8,15 +8,23 @@ import java.util.Scanner;
  * @since 2025-10-20 20:48
  **/
 public abstract class A {
-    public A(){
-        String b = new Scanner(System.in).nextLine();
-        int a = get(b);
+    public static void main(String[] args) {
+        System.out.println("hello world");
         System.out.println("A");
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world");
+
+        System.out.println("A");
+        System.out.println("A");
+        System.out.println("b");
+        System.out.println("b");
+        System.out.println("b");
+        System.out.println("b");
         System.out.println("b");
         System.out.println("b");
         System.out.println("b");
         System.out.println("b");
         Calendar.getInstance();
     }
-    public abstract int get(String a);
 }

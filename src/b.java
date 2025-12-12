@@ -9,11 +9,6 @@ public class b extends A{
         System.out.println("b");
     }
 
-    @Override
-    public int get(String a) {
-        return "b".length();
-    }
-
     public static void main(String[] args) {
         A a = new b();
     }
