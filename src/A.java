@@ -12,6 +12,10 @@ public abstract class A {
         String b = new Scanner(System.in).nextLine();
         int a = get(b);
         System.out.println("A");
+        System.out.println("b");
+        System.out.println("b");
+        System.out.println("b");
+        System.out.println("b");
         Calendar.getInstance();
     }
     public abstract int get(String a);
