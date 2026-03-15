@@ -7,25 +7,8 @@ import java.util.Scanner;
  * @描述: todo
  * @since 2025-10-20 20:48
  **/
-public abstract class A {
-    public static void main(String[] args) {
-        System.out.println("hello world");
-        System.out.println("vvv");
-        System.out.println("vvv");
-        System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
+public class A {
+    public final void test(){
 
-        System.out.println("A");
-        System.out.println("A");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        System.out.println("b");
-        Calendar.getInstance();
     }
 }
